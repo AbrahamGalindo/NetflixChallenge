@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "types": ["cypress", "node", "cypress-real-events"],
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": [
+                "./cypress/pages/*"
+            ]
+        }
+    }
+}
